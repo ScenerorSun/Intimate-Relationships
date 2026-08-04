@@ -1,0 +1,25 @@
+{
+  "skill": "relationship-diagnosis",
+  "tests": [
+    {
+      "prompt": "我们结婚5年，感觉越来越像室友，是不是关系出问题了",
+      "expect": "call"
+    },
+    {
+      "prompt": "怎么判断一段关系健不健康",
+      "expect": "call"
+    },
+    {
+      "prompt": "我很难受，想找个人说说",
+      "expect": "no-call (情绪倾诉)"
+    },
+    {
+      "prompt": "什么是亲密关系六要素",
+      "expect": "no-call (信息查询)"
+    },
+    {
+      "prompt": "我们天天吵架，是不是应该分开",
+      "expect": "call"
+    }
+  ]
+}
