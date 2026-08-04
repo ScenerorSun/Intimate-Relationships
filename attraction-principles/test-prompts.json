@@ -1,0 +1,25 @@
+{
+  "skill": "attraction-principles",
+  "tests": [
+    {
+      "prompt": "我为什么总是被同一类人吸引然后又受伤",
+      "expect": "call"
+    },
+    {
+      "prompt": "我们认识三个月很来电，靠谱吗",
+      "expect": "call"
+    },
+    {
+      "prompt": "怎么判断TA喜欢我",
+      "expect": "no-call (推测他人心意)"
+    },
+    {
+      "prompt": "异地恋能成吗",
+      "expect": "call"
+    },
+    {
+      "prompt": "我喜欢上一个条件比我好很多的人，配吗",
+      "expect": "call"
+    }
+  ]
+}
