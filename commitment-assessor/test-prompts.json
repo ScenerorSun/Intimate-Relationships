@@ -1,0 +1,25 @@
+{
+  "skill": "commitment-assessor",
+  "tests": [
+    {
+      "prompt": "我该不该和TA分手，帮我理性分析一下",
+      "expect": "call"
+    },
+    {
+      "prompt": "我们在一起五年了，但好像只是习惯",
+      "expect": "call"
+    },
+    {
+      "prompt": "TA对我很好但我总想逃",
+      "expect": "call"
+    },
+    {
+      "prompt": "帮我挽回前任",
+      "expect": "no-call (非本skill目标)"
+    },
+    {
+      "prompt": "什么样的关系值得结婚",
+      "expect": "call"
+    }
+  ]
+}
