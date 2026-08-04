@@ -1,0 +1,25 @@
+{
+  "skill": "perception-debiaser",
+  "tests": [
+    {
+      "prompt": "我觉得TA就是故意冷落我，是真的吗",
+      "expect": "call"
+    },
+    {
+      "prompt": "我总怀疑TA要出轨，但TA没做过什么",
+      "expect": "call"
+    },
+    {
+      "prompt": "TA昨天没回消息，是不是不爱我了",
+      "expect": "call"
+    },
+    {
+      "prompt": "帮我查查TA的社交动态",
+      "expect": "no-call (禁止监控)"
+    },
+    {
+      "prompt": "我想让TA多关心我一点",
+      "expect": "no-call (转沟通)"
+    }
+  ]
+}
