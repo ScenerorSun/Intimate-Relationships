@@ -1,0 +1,25 @@
+{
+  "skill": "breakup-recovery-guide",
+  "tests": [
+    {
+      "prompt": "我分手两周了，还是走不出来",
+      "expect": "call"
+    },
+    {
+      "prompt": "要不要删掉前任的微信",
+      "expect": "call"
+    },
+    {
+      "prompt": "分手三个月了还总想起TA，正常吗",
+      "expect": "call"
+    },
+    {
+      "prompt": "怎么挽回前任",
+      "expect": "no-call (非本skill目标)"
+    },
+    {
+      "prompt": "我现在该不该马上开始新恋情",
+      "expect": "call"
+    }
+  ]
+}
