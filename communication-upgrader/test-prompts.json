@@ -1,0 +1,25 @@
+{
+  "skill": "communication-upgrader",
+  "tests": [
+    {
+      "prompt": "我们恋爱两年，越来越没话说了",
+      "expect": "call"
+    },
+    {
+      "prompt": "怎么跟伴侣表达我的需求又不吵架",
+      "expect": "call"
+    },
+    {
+      "prompt": "TA跟我讲工作上的事，我总不知道怎么接",
+      "expect": "call"
+    },
+    {
+      "prompt": "怎么让TA多跟我说心里话",
+      "expect": "no-call (改造他人)"
+    },
+    {
+      "prompt": "夫妻怎么培养共同话题",
+      "expect": "call"
+    }
+  ]
+}
