@@ -1,0 +1,25 @@
+{
+  "skill": "attachment-mapper",
+  "tests": [
+    {
+      "prompt": "我谈恋爱总是患得患失，是不是心理有问题",
+      "expect": "call"
+    },
+    {
+      "prompt": "为什么我女朋友总是想确定我还爱她",
+      "expect": "call"
+    },
+    {
+      "prompt": "帮我分析一下我是什么依恋类型",
+      "expect": "call"
+    },
+    {
+      "prompt": "什么是安全型依恋",
+      "expect": "no-call (信息查询)"
+    },
+    {
+      "prompt": "怎么让我的回避型伴侣多表达",
+      "expect": "no-call (改造他人，转策略)"
+    }
+  ]
+}
