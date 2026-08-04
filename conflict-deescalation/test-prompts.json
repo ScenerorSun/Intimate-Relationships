@@ -1,0 +1,25 @@
+{
+  "skill": "conflict-deescalation",
+  "tests": [
+    {
+      "prompt": "我们又吵起来了，现在怎么收场",
+      "expect": "call"
+    },
+    {
+      "prompt": "我对象一吵架就冷战，怎么办",
+      "expect": "call"
+    },
+    {
+      "prompt": "每次都是因为小事吵，为什么",
+      "expect": "call"
+    },
+    {
+      "prompt": "我气得不想说话",
+      "expect": "no-call (情绪中先冷静)"
+    },
+    {
+      "prompt": "吵架时TA骂我很难听，我该忍着吗",
+      "expect": "call (先识别暴力边界)"
+    }
+  ]
+}
